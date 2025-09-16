@@ -1,0 +1,43 @@
+/* Cambiar el tamaño de una imagen y agregar un marco */
+/* Estilos del contenedor de la imagen */
+.carousel {
+  margin-bottom: 100px; /* Ajusta este valor según sea necesario */
+}
+
+/* Estilos de la imagen */
+
+body {
+  background-image: url('./media/images/huerto1.jpg');
+  background-size: cover; /* Para cubrir todo el fondo */
+  background-position: center; /* Para centrar la imagen de fondo */
+}
+
+
+.carousel img {
+  border-width: 10px; /* Grosor del borde */
+  border-style: solid; /* Estilo del borde */
+  border-color: rgba(0, 0, 0, 0.5); /* Color del borde con transparencia */
+  
+}
+/* Estilos para las flechas del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    top: -50%; /* Posiciona las flechas verticalmente en el centro */
+    transform: translateY(1100%); /* Ajusta la posición verticalmente */
+}
+
+/* Ajusta el tamaño de las flechas según tus preferencias */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px; /* Ancho de las flechas */
+    height: 50px; /* Alto de las flechas */
+}
+#colortexto {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  opacity: 60%;
+}
+
+
+

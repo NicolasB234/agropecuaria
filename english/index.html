@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Unión de Cooperativas Agropecuarias LTDA</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description"
+    content="Somos un consorcio expertas cooperativas agropecuarias. Ofrecemos productos frescos como batatas, mandiocas, morrones y frutillas" />
+  <meta name="keywords"
+    content="Unión de Cooperativas Agropecuarias, Agricultura, Cooperativas, Productos frescos, Batatas, Mandiocas, Morrones, Frutillas" />
+  <link rel="icon" href="./media/images/icon/favicon.png" type="image/x-icon" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+
+  <link rel="stylesheet" href="normalize.css" />
+  <link href="./css/style.css" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-dark navbar-expand-lg"
+        style="background-color: rgb(42, 107, 57)"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./media/images/icon/favicon.png"
+              alt="logo"
+              style="width: 50px"
+              class="mr-2"
+            />
+            <span class="d-none d-md-inline"
+              >Agricultural Cooperatives Union Ltd.</span
+            >
+            <span class="d-inline d-md-none">UC Agro.</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <div class="flex-grow-1"></div>
+            <!-- Div vacío para empujar hacia la derecha -->
+            <ul
+              class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll align-items-center me-5"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="productos.html">Products</a>
+              </li>
+              <li class="nav-item"></li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contacto.html">Contact</a>
+              </li>
+              <li class="nav-item"></li>
+              <li class="nav-item">
+                <a class="nav-link active" href="nosotros.html">Us</a>
+              </li>
+
+  <li class="nav-item">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="idiomaDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Language
+      </a>
+      <div class="dropdown-menu" aria-labelledby="idiomaDropdown">
+        <a class="dropdown-item" href="../index.html">Spanish
+          <img src="media/images/icon/argentina_flags_flag_16969.png" alt="Bandera de Argentina" style="width: 20px; height: 15px; margin-right: 5px;">
+          
+      </a>
+      
+        <a class="dropdown-item" href="./index.html">English
+          <img src="media/images/icon/UnitedStatesflag_6361.png" alt="Bandera estados unidos" style="width: 20px; height: 15px; margin-right: 5px;">
+        </a>
+      </div>
+    </li>
+  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div
+        class="container-fluid d-flex justify-content-center align-items-center text-light text-center"
+        style="
+          height: 64vh;
+          background-image: url(./media/images/huerto2.png);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position: bottom;
+        "
+      >
+        <div class="row row-lightbox justify-content-center text-center">
+          <div class="col-lg-12">
+            <h2>We Are What You Need</h2>
+            <p>Always offering you balance and quality</p>
+            <button id="openLightbox" class="btn btn-primary">
+              Presentation Video
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Lightbox -->
+      <div
+        id="lightbox"
+        class="hidden"
+        style="
+          background-color: rgba(0, 0, 0, 0.8);
+          text-align: center;
+          padding: 20px;
+        "
+      >
+        <!-- Aquí coloca el reproductor de video o iframe con tu video --><video
+          width="560"
+          height="315"
+          src="./media/videos/Video de WhatsApp 2023-09-21 a las 17.26.40_5bfcd576.mp4"
+          frameborder="0"
+          allowfullscreen
+          controls
+        ></video>
+
+        <button id="closeLightbox" class="btn btn-secondary">Cerrar</button>
+      </div>
+
+      <div
+        class="conteiner-fluid text-center p-5 align-content-center align-items-center text-light"
+        style="
+          border-top: solid;
+          border-bottom: solid;
+          border-width: 3px;
+          border-color: rgb(42, 107, 57);
+          background-color: rgb(58, 45, 33);
+        "
+      >
+        <section class="coop-consortium">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <p class="coop-info">
+                  We are a group of agricultural cooperatives in Corrientes, Bella Vista, exporting fresh products such as sweet potatoes, cassavas, bell peppers, strawberries, and more.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <p class="coop-info">
+                  The group has a foreign trade area with qualified and specialized personnel in the FRUIT AND VEGETABLE SECTOR with over 4 years of experience advising companies and conducting market studies, market analysis, export plans for countries such as Brazil, Paraguay, Uruguay.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <p class="coop-info">
+                  We are a group of 250 local producers in the fruit and vegetable sector in our region.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <p class="coop-info">
+                  This group was formed in June 2023 thanks to the program of the Argentine Agency of Investments and International Trade (AAICI) and the ICBC Foundation.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <p class="coop-info">
+                  the team of people who are dedicated to the export activity
+  It is made up of: Manager (Lic. in Comer Exter), dispatcher, accountant, etc.
+                </p>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-6 mt-2">
+                <source srcset="sourceset" type="image/svg+xml" />
+                <img src="./media/images/logos/aiici.svg" class="img-fluid bg-light" style="width: 465px"
+                  alt="image desc" />
+              </div>
+              <div class="col-md-6 mt-2">
+                <source srcset="sourceset" type="image/svg+xml" />
+                <img src="./media/images/logos/icbc.png" class="img-fluid" alt="image desc" style="width: 357px" />
+              </div>
+            </div>
+  
+        </section>
+      </div>
+     
+    </div>
+    </div>
+    </section>
+    </div>
+    <div class="container-fluid p-5" style="
+          background-image: url(./media/images/huerto1.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+        ">
+        <div class="row justify-content-center text-center align-items-center g-2">
+            <div class="col-lg-3 text-decoration-none text-light">
+                <div class="card cooperativas" style="min-height: 30rem; max-width: 20rem">
+                    <div class="card-header">
+                        <h4 class="card-title bg-black bg-opacity-50 border border-1 border-success rounded-2">
+                            Cooperativa Agropecuaria Progreso ltda.
+                        </h4>
+                    </div>
+    
+                    <div class="card-body">
+                        <p class="bg-black bg-opacity-50 border rounded-2">The Cooperativa Agropecuaria Progreso Ltd. is
+                            located in Colonia Progreso, near Bella Vista, Corrientes, Argentina, and is dedicated to the
+                            production and commercialization of tomatoes, peppers, and citrus fruits. Dedicated to the
+                            production and commercialization of agricultural products, with 20 years in the regional and national market.
+                            It has 38 active members and has
+                            an estimated monthly production of 25 tons.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 text-decoration-none text-light">
+                <div class="card cooperativas" style="min-height: 30rem; max-width: 20rem">
+                    <div class="card-header">
+                        <h4 class="card-title bg-black bg-opacity-50 border border-1 border-success rounded-2">
+                            Cooperativa Agropecuaria La Estrella Ltda.
+                        </h4>
+                    </div>
+    
+                    <div class="card-body">
+                        <p class="bg-black bg-opacity-50 border rounded-2">The Cooperativa Agropecuaria La Estrella Ltda. is
+                            located in Cruz de los Milagros, Corrientes, Argentina. It is dedicated to the production and commercialization
+                            of tomatoes, peppers, beans, jalapeño peppers, strawberries, sweet potatoes, corn, and cassava. It has 15-20
+                            associates and has had sales volume of $5,000,000 in the last 3 years. Its production capacity
+                            is currently 4 tons per month.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 text-decoration-none text-light">
+                <div class="card cooperativas" style="min-height: 30rem; max-width: 20rem">
+                    <div class="card-header">
+                        <h4 class="card-title bg-black bg-opacity-50 border border-1 border-success rounded-2">
+                            Cooperativa Agropecuaria Juventud Unida Ltda.
+                        </h4>
+                    </div>
+    
+                    <div class="card-body">
+                        <p class="bg-black bg-opacity-50 border rounded-2">The Cooperativa Agropecuaria Juventud Unida Ltda. was
+                            founded in 2002 in Colonia Tatacua, Concepción, Corrientes. It has around 20
+                            producing members and stands out for its variety of production, including sweet potatoes, cassava, tomatoes, bell peppers,
+                            oranges, honey, pumpkins, etc. It currently has approximately 20 hectares of
+                            production and plans to expand in the future.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center align-items-center g-2">
+                <div class="col-lg-3 text-decoration-none text-light">
+                    <div class="card cooperativas" style="min-height: 30rem; max-width: 20rem">
+                        <div class="card-header">
+                            <h4 class="card-title bg-black bg-opacity-50 border border-1 border-success rounded-2">
+                                Cooperativa Agropecuaria Salvador Dana Ltda.
+                            </h4>
+                        </div>
+    
+                        <div class="card-body">
+                            <p class="bg-black bg-opacity-50 border rounded-2">The Cooperativa Agropecuaria Salvador Dana Ltda. was created in 2014, has 11 members, and also works with non-member producers, it has producers from the Lavalle department and Goya department, its production includes cherry tomatoes, round tomatoes, pear tomatoes, beans, zucchinis, zucchinis, and peppers.
+                                It sells approximately 500 tons of production annually, all of which is sold domestically.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-decoration-none text-light">
+                    <div class="card cooperativas" style="min-height: 30rem; max-width: 20rem">
+                        <div class="card-header">
+                            <h4 class="card-title bg-black bg-opacity-50 border border-1 border-success rounded-2">
+                              APPPC Asociación Provincial de Pequeños Productores Correntinos.
+                            </h4>
+                        </div>
+    
+                        <div class="card-body">
+                            <p class="bg-black bg-opacity-50 border rounded-2">The APPPC Asociación Provincial de Pequeños Productores Correntinos.  was created more than 25 years ago. With extensive experience in the domestic market, located in the town of Tres de Abril, Corrientes. Today it has more than 150 small and medium fruit and citrus producers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+      
+      </div>
+    </div>
+  </main>
+  <footer class="text-center text-white footer-fixed" style="background-color: rgb(42, 107, 57)">
+    <div class="container pt-2">
+      <section class="mb-2">
+        <p>Telephone: +54 9 3777 47-3968</p>
+      </section>
+    </div>
+
+    <div class="text-center text-white pb-3">
+      © 2023 Copyright:
+      <a class="text-white" target="_blank" href="">Agricultural Cooperatives Union Ltd.</a>
+    </div>
+  </footer>
+  <!-- place footer here -->
+  <!-- Bootstrap JavaScript Libraries -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/lightbox.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

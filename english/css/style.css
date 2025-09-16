@@ -1,0 +1,425 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+  /* Esto ocultará cualquier desplazamiento horizontal si existe */
+}
+
+.cooperativas {
+  background-image: url(../media/images/huerto2.png);
+  background-size: cover;
+  height: 100vh;
+  /* Ajusta la altura según tus necesidades */
+  position: relative;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-1 {
+  background-image: url(../media/images/frutillas1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-2 {
+  background-image: url(../media/images/limones2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-3 {
+  background-image: url(../media/images/naranjas1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-4 {
+  background-image: url(../media/images/tomates.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-5 {
+  background-image: url(../media/images/mandioca.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-6 {
+  background-image: url(../media/images/morrones2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-7 {
+  background-image: url(../media/images/pepinos.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-8 {
+  background-image: url(../media/images/berengenas.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-9 {
+  background-image: url(../media/images/zapallos1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-10 {
+  background-image: url(../media/images/morrones6.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-11 {
+  background-image: url(../media/images/morrones8.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-12 {
+  background-image: url(../media/images/sandia.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-13 {
+  background-image: url(../media/images/producto-13.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-14 {
+  background-image: url(../media/images/batatacolorada.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+
+#producto-15 {
+  background-image: url(../media/images/palta.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Ajusta la altura según tus necesidades */
+  position: center;
+  /* Puede ser necesario según la estructura de tu página */
+}
+.carousel-inner img {
+  max-width: 45vh;
+  /* Limitar el ancho al 100% del contenedor */
+  /* Establecer una altura máxima deseada */
+  margin: 0 auto;
+  /* Centrar horizontalmente las imágenes */
+  display: block;
+  /* Evitar márgenes no deseados */
+}
+
+#portada {
+  height: 64vh;
+  background-image: url(./media/images/huerto2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.row-lightbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-content {
+  flex: 1;
+}
+
+.right-content {
+  margin-left: 20px;
+}
+
+/* Estilo para el lightbox */
+#lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox iframe {
+  width: 80%;
+  height: 80%;
+}
+
+#closeLightbox {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  max-width: 100%;
+  /* Agrega esta línea para que el contenedor no sea más ancho que su contenedor principal */
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+  width: 25%;
+  /* Cambia esto para que cada elemento li ocupe el 25% del ancho del contenedor */
+  list-style: none;
+  flex-shrink: 0;
+  /* Evita que los elementos li se reduzcan más allá de su ancho especificado */
+}
+
+.slider img {
+  width: 300px;
+  height: 350px;
+  /* Agrega esto para mantener la proporción de la imagen */
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+
+  100% {
+    margin-left: -300%;
+  }
+}
